@@ -177,3 +177,9 @@ header {
   margin: 50px auto 0px;
   color: rgba(224, 44, 109, 0.87);
 }
+.bottom_txt a {
+  text-decoration: none;
+  color: rgba(224, 44, 109, 0.87);
+  font-size: 16px;
+  font-weight: 700;
+}
