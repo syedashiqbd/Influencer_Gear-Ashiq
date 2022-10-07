@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,6 +8,7 @@
 }
 body {
   font-family: "Poppins", sans-serif;
+
   color: #3a3a3a;
 }
 .container {
@@ -107,4 +110,70 @@ header {
   justify-content: center;
   align-items: center;
   gap: 80px;
+}
+.popular_collection_area h1 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  color: #3a3a3a;
+  margin: 30px 0px 60px;
+}
+.products {
+  max-width: 1047px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.product {
+  width: 329px;
+  height: 476px;
+  padding: 15px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+.product img {
+  width: 100%;
+}
+.product h2 {
+  margin-top: 16px;
+  color: #18191f;
+  font-weight: 500;
+  font-size: 28px;
+}
+.product h3 {
+  margin-top: 6px;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  ccolor: rgba(0, 0, 0, 0.87);
+}
+.rating {
+  margin-top: 6px;
+  color: #fb8200;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+.rating p {
+  color: #5e6366;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+.product_btm_txt {
+  margin-top: 10px;
+  color: #787885;
+  font-size: 14px;
+  font-weight: 700;
+}
+.bottom_txt {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 10px;
+  max-width: 1047px;
+  margin: 50px auto 0px;
+  color: rgba(224, 44, 109, 0.87);
 }
