@@ -145,7 +145,7 @@ header {
   font-size: 24px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  ccolor: rgba(0, 0, 0, 0.87);
+  color: rgba(0, 0, 0, 0.87);
 }
 .rating {
   margin-top: 6px;
@@ -183,7 +183,7 @@ header {
   font-weight: 700;
 }
 .featured_product {
-  width: 85%;
+  max-width: 1140px;
   margin: 100px auto 100px;
   display: flex;
   justify-content: space-between;
