@@ -244,6 +244,62 @@ footer p {
 .fa-brands {
   font-size: 24px;
 }
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 20px;
+  }
+  header {
+    flex-direction: column-reverse;
+  }
+  .left,
+  .right {
+    width: 100%;
+  }
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .featured_product {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+  .right_txt h1,
+  .right_txt p {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+  }
+  .right_txt button {
+    margin: 30px auto 0px;
+  }
+  .left_img {
+    margin: 0 auto;
+  }
+  .right img {
+    transform: scale(2.1);
+  }
+  .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .left h1 {
+    font-size: 38px;
+  }
+  .left p {
+    margin: 20px 30px;
+  }
+  .link_btn {
+    padding: 18px 35px;
+    border-radius: 35px;
+    font-size: 18px;
+  }
+}
+
+/* For Mobile Device */
+
 @media only screen and (max-width: 480px) {
   .container {
     width: 95vw;
