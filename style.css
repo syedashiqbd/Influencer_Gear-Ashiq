@@ -229,11 +229,19 @@ footer p {
 }
 .social_icons {
   margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+}
+.icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .fa-brands {
-  font-size: 22px;
-  background: rgb(255, 255, 255, 0.1);
-  border-radius: 22px;
-  padding: 10px;
-  margin: 0 5px;
+  font-size: 24px;
 }
