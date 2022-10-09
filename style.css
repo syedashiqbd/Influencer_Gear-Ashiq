@@ -270,6 +270,7 @@ footer p {
   .left,
   .right {
     width: 100%;
+    margin-top: 22px;
   }
   .circle_1 {
     width: 400px;
@@ -289,5 +290,22 @@ footer p {
   }
   .right img {
     transform: scale(2.1);
+  }
+  .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .left h1 {
+    font-size: 38px;
+  }
+  .left p {
+    margin: 20px 30px;
+  }
+  .link_btn {
+    padding: 18px 35px;
+    border-radius: 35px;
+    font-size: 18px;
   }
 }
