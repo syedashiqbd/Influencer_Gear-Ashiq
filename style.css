@@ -250,7 +250,7 @@ footer p {
 }
 @media only screen and (max-width: 480px) {
   .container {
-    width: 85vw;
+    width: 95vw;
   }
   .navbar {
     display: none;
@@ -272,7 +272,22 @@ footer p {
     width: 100%;
   }
   .circle_1 {
-    width: 408px;
-    height: 408px;
+    width: 400px;
+    height: 400px;
+  }
+  .circle_2 {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 50px;
+  }
+  .circle_3 {
+    width: 180px;
+    height: 180px;
+    position: relative;
+    top: 60px;
+  }
+  .right img {
+    transform: scale(2.1);
   }
 }
