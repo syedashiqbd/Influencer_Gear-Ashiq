@@ -78,22 +78,14 @@ header {
 }
 .circle_2 {
   border-radius: 50%;
-  background-color: #f1e4ff;
+  border: 60px solid #f1e4ff;
   width: 332px;
   height: 332px;
   position: relative;
   top: 71.5px;
   margin: auto;
 }
-.circle_3 {
-  border-radius: 50%;
-  width: 195px;
-  height: 195px;
-  background-color: #fff;
-  position: relative;
-  top: 71.5px;
-  margin: auto;
-}
+
 .right img {
   width: 100%;
   transform: scale(2.3);
@@ -102,16 +94,17 @@ header {
   margin-top: 100px;
 }
 .brand_name {
-  width: 90%;
-  height: 110px;
-  margin: auto;
+  height: auto;
+  padding: 30px 0px;
   border: 1px solid #ddd;
-  border-left: 200px solid transparent;
-  border-right: 200px solid transparent;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  margin: auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 80px;
+  gap: 50px;
 }
 .popular_collection_area h1 {
   text-align: center;
@@ -282,12 +275,6 @@ footer p {
     position: relative;
     top: 50px;
   }
-  .circle_3 {
-    width: 180px;
-    height: 180px;
-    position: relative;
-    top: 60px;
-  }
   .right img {
     transform: scale(2.1);
   }
@@ -307,5 +294,14 @@ footer p {
     padding: 18px 35px;
     border-radius: 35px;
     font-size: 18px;
+  }
+  .ecommerce_brand {
+    margin-top: 50px;
+  }
+  .brand_name {
+    padding: 20px 0px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    gap: 30px;
   }
 }
