@@ -11,7 +11,7 @@ body {
   color: #3a3a3a;
 }
 .container {
-  width: 85%;
+  width: 85vw;
   margin: 0 auto;
 }
 .navbar {
@@ -29,6 +29,9 @@ body {
   text-decoration: none;
   color: #3a3a3a;
   font-weight: 600;
+}
+.navbarSmall {
+  display: none;
 }
 header {
   display: flex;
@@ -244,4 +247,21 @@ footer p {
 }
 .fa-brands {
   font-size: 24px;
+}
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 85vw;
+  }
+  .navbar {
+    display: none;
+  }
+  .navbarSmall {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+  }
+  .navbarSmall .fa-solid {
+    font-size: 24px;
+  }
 }
