@@ -106,6 +106,10 @@ header {
   align-items: center;
   gap: 50px;
 }
+.popular_collection_area {
+  max-width: 1047px;
+  margin: 0 auto;
+}
 .popular_collection_area h1 {
   text-align: center;
   font-size: 28px;
@@ -114,7 +118,6 @@ header {
   margin: 30px 0px 60px;
 }
 .products {
-  max-width: 1047px;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -303,5 +306,36 @@ footer p {
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     gap: 30px;
+  }
+  .products {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 20px;
+  }
+  .product {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .bottom_txt {
+    margin-right: 25px;
+  }
+  .featured_product {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+  .right_txt h1,
+  .right_txt p {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+  }
+  .right_txt button {
+    margin: 30px auto 0px;
+  }
+  .left_img {
+    margin: 0 auto;
   }
 }
